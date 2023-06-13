@@ -7,11 +7,9 @@ import Team from './components/team';
 
 function App() {
   return (
-    <div>
+    <div className='font-montserrat'>
     <Open/>
     <Working/>
-    <AboutUs/>
-    <Team/>
     </div>
   );
 }
