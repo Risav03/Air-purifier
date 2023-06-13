@@ -1,11 +1,12 @@
 import Product from "../content/Product.jpg"
+import heading from "../content/heading.png"
 
 function Open(){
     return <div>
         <div className="shadow-xl rounded-3xl mx-auto">
-            <h2>Hello</h2>
+            <img src={heading} className="w-[15%] mx-auto"></img>
         </div>
-        <div className="grid md:grid-flow-col md:grid-cols-2 md:mt-20 mt-10">
+        <div className="grid md:grid-flow-col md:grid-cols-2 md:mt-[3rem] mt-10">
             <img src={Product} className="w-[80%] max-[768px]:w-[90%] shadow-xl mx-auto rounded-3xl my-auto"></img>
             <div>
                 <div className="text-center bg-blue-100 rounded-3xl md:w-[80%] w-[90%] mt-10 mx-auto font-montserrat md:p-10 pt-5 px-4 pb-5 shadow-xl">
